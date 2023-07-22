@@ -52,11 +52,34 @@ html, body {
 }
 
 .main-header {
-    background-color: rgba(0, 0, 0, .6);
-    background-image: url("Images/Header Background.jpg");
+    background-color: rgba(0, 0, 0, 0.387);
+    background-image: url("Images/about.webp");
     background-blend-mode: multiply;
     background-size: cover;
-    padding-bottom: 160px;
+    padding-bottom: 130px;
+}
+
+.main-header-shop {
+    background-color: rgba(0, 0, 0, 0.387);
+    background-image: url("Images/Header Background2.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 120px;
+}
+
+.main-header-about {
+    background-color: rgba(0, 0, 0, 0.387);
+    background-image: url("Images/about.webp");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 120px;
+}
+
+.signup-form{
+    display: flexbox;
+    align-items: center;
+    justify-content: space-between;   
+
 }
 
 .band-name {
@@ -70,10 +93,17 @@ html, body {
 
 .band-name-large {
     font-size: 8em;
+    padding-top: 8rem;
 }
 
 .content-section {
     margin: 1em;
+}
+
+.signup-form {
+    background-color:#56CCF2;
+    text-align: center;
+    padding: 30px;;
 }
 
 .container {
@@ -83,16 +113,23 @@ html, body {
     padding: 0 1.5rem;
 }
 .section-header {
-    font-family: "Metal Mania";
+    font-family: Raleway;
     font-weight: normal;
     color: #333;
     text-align: center;
     font-size: 2.5em;
 }
 
+.description {
+    text-align: center; 
+    color: #eee;
+    font-family: Raleway;
+
+}
+
 .about-band-image {
     float: left;
-    height: 200px;
+    height: 150px;
     width: 200px;
     margin: 15px;
     border-radius: 50%;
@@ -205,21 +242,21 @@ html, body {
 }
 
 .shop-item {
-    margin: 30px;
+    margin: 10px;
 }
 
 .shop-item-title {
     display: block;
     width: 100%;
     text-align: center;
-    font-weight: bold;
-    font-size: 1.5em;
-    color: #333;
+    font-weight: normal;
+    font-size: 1.1em;
+    color:#555;
     margin-bottom: 15px;
 }
 
 .shop-item-image {
-    height: 250px;
+    height: 300px;
 }
 
 .shop-item-details {

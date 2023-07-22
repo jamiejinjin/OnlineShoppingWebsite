@@ -19,7 +19,7 @@ for(var i=0;i<addToCartButtons.length;i++){
 document.getElementsByClassName('btn-purchase')[0].addEventListener('click',purchaseClicked)
 
 function purchaseClicked(){
-    alert("Thank you for your support");
+    alert("Thank you for your purchase");
     var cartItems= document.getElementsByClassName('cart-items')[0];
     console.log(cartItems.childNodes)
     while(cartItems.hasChildNodes()){
