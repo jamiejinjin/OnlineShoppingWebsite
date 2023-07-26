@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
 @import url("https://fonts.googleapis.com/css?family=Metal+Mania");
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
 
 @font-face {
     font-family: "Booter - Zero Zero";
@@ -85,19 +87,26 @@ html, body {
 .band-name {
     text-align: center;
     margin: 0;
-    font-size: 4em;
-    font-family: "Booter - Zero Zero";
+    font-size: 2em;
+    font-family: "Ubuntu";
     font-weight: normal;
     color: white;
 }
 
 .band-name-large {
-    font-size: 8em;
+    font-size: 6em;
     padding-top: 8rem;
 }
 
 .content-section {
     margin: 1em;
+}
+
+.about-container {
+    text-align: left;
+    max-width: 600px;
+    margin: auto;
+    padding: 3rem 1rem;
 }
 
 .signup-form {
@@ -129,10 +138,10 @@ html, body {
 
 .about-band-image {
     float: left;
-    height: 150px;
-    width: 200px;
-    margin: 15px;
-    border-radius: 50%;
+    height: 230px;
+    width: 150px;
+    margin-right: 30px;
+    border-radius: 20%;
 }
 
 .main-footer {
