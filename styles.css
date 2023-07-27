@@ -49,6 +49,8 @@ html, body {
     padding: 0 5%;
 }
 
+
+
 .nav a:hover {
     background-color: rgba(255, 255, 255, .3)
 }
@@ -78,11 +80,45 @@ html, body {
 }
 
 .signup-form{
-    display: flexbox;
-    align-items: center;
-    justify-content: space-between;   
+    height: 6rem;
+    max-width: 1400px; 
+    padding: 20px;
+    margin:0;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; 
+}
+
+.signup-form label,
+.signup-form input{
+    color: rgb(45, 44, 44);
+    margin-right: 10px;
+}
+
+.signup-form button{
+    font-size: large;
+    margin: 15px;
+    background-color: rgb(4, 194, 159);
+    color: rgb(244, 238, 238);
+    border: none;
+    border-radius: 3px;
+}
+
+.signup-form button:hover {
+    background-color:#2D9CDB;
+}
+
+.signin-form{
+    margin-bottom: 50px;
 
 }
+
+h2{
+    padding: 30px;
+}
+
+
 
 .band-name {
     text-align: center;
@@ -109,11 +145,7 @@ html, body {
     padding: 3rem 1rem;
 }
 
-.signup-form {
-    background-color:#56CCF2;
-    text-align: center;
-    padding: 30px;;
-}
+
 
 .container {
     text-align: center;
@@ -142,6 +174,18 @@ html, body {
     width: 150px;
     margin-right: 30px;
     border-radius: 20%;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content {
+    margin-top: 50px;
+    flex: 1; /* Fill the remaining vertical space */
 }
 
 .main-footer {
