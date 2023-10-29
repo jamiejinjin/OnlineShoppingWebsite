@@ -1,4 +1,4 @@
 # OnlineShoppingWebsite
 -Hi there, you can see this shopping website by [clicking here](https://jamiejinjin.github.io/OnlineShoppingWebsite/store.html)
 
--This is an online shopping website, which includes a homepage and a shopping cart page. 
+-It is an online shopping website, which offers user registration and login functionality, providing a responsive and user-friendly experience. Users can easily find the latest events on the home page, and purchase through the store page. 
